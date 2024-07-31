@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fastapi-authentication"
+version = "0.1.0"
+description = "This Project is about how to use authentication in Fastapi."
+authors = ["karthik-yml <karthik.tv@ymedialabs.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.111.1"
+uvicorn = "^0.30.3"
+sqlalchemy = "^2.0.31"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
